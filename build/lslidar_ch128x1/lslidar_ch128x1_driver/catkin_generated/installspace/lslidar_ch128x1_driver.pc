@@ -1,0 +1,8 @@
+prefix=/home/nawres/lidar_ws/install
+
+Name: lslidar_ch128x1_driver
+Description: Description of lslidar_ch128x1_driver
+Version: 1.0.0
+Cflags: -I${prefix}/include -I/usr/include
+Libs: -L${prefix}/lib 
+Requires: roscpp diagnostic_updater nodelet lslidar_ch128x1_msgs
